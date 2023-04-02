@@ -1,0 +1,68 @@
+header
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1534313240698-2384ede3b065?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1050&ixid=MnwxfDB8MXxyYW5kb218MHx8Zm9yZXN0fHx8fHx8MTY3ODM0NzkwNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1680');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ddbc78;
+    cursor: default;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+button
+{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ddbc78;
+    background-color: #000000;
+    border: none;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #0a5025;
+    color: #ddbc78;
+    transform: scale(1.2);
+    border: solid;
+    box-shadow: 2px 2px 5px;
+}
+
+#fiche
+{
+    border-bottom: 1px solid;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+    background-color: #50603f;
+}
+
+#contenue
+{
+    border: 1px solid;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: #50603f;
+}
